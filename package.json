@@ -1,0 +1,21 @@
+{
+    "name": "fucket",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsup index.ts --format cjs,esm --dts",
+        "lint": "tsx"
+    },
+    "keywords": [
+        "file",
+        "manage",
+        "upload"
+    ],
+    "author": "iamfiro",
+    "devDependencies": {
+        "tsup": "^8.1.0",
+        "typescript": "^5.4.5"
+    }
+}
